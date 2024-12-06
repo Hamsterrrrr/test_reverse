@@ -1,0 +1,30 @@
+{
+  "undefined": [
+    "status",
+    "data",
+    "response",
+    "response",
+    "token",
+    "maxLength",
+    "MODE_PARAM",
+    "error",
+    "main"
+  ],
+  "String": [
+    "value"
+  ],
+  "postMessageWithContentHeight": [],
+  "delayShowChallengeData": [],
+  "setRunStatus": [],
+  "runChallenge": [],
+  "sendCandidate": [
+    "candidateData"
+  ],
+  "handleMobile": [
+    "response"
+  ],
+  "handleWeb": [
+    "response",
+    "token"
+  ]
+}

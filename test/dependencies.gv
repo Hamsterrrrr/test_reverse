@@ -1,0 +1,28 @@
+// Dependency Graph
+digraph {
+	main [label=main]
+	setRunStatus [label=setRunStatus]
+	main -> setRunStatus
+	sendCandidate [label=sendCandidate]
+	main -> sendCandidate
+	delayShowChallengeData [label=delayShowChallengeData]
+	main -> delayShowChallengeData
+	main [label=main]
+	main -> main
+	get [label=get]
+	main -> get
+	error [label=error]
+	main -> error
+	runChallenge [label=runChallenge]
+	main -> runChallenge
+	handleMobile [label=handleMobile]
+	main -> handleMobile
+	getElementById [label=getElementById]
+	main -> getElementById
+	handleWeb [label=handleWeb]
+	main -> handleWeb
+	URLSearchParams [label=URLSearchParams]
+	main -> URLSearchParams
+	postMessageWithContentHeight [label=postMessageWithContentHeight]
+	main -> postMessageWithContentHeight
+}

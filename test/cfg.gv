@@ -1,0 +1,19 @@
+// Control Flow Graph
+digraph {
+	Start -> main
+	main -> postMessageWithContentHeight
+	postMessageWithContentHeight -> delayShowChallengeData
+	delayShowChallengeData -> getElementById
+	getElementById -> getElementById
+	getElementById -> setRunStatus
+	setRunStatus -> runChallenge
+	runChallenge -> sendCandidate
+	sendCandidate -> URLSearchParams
+	URLSearchParams -> get
+	get -> handleMobile
+	handleMobile -> handleWeb
+	handleWeb -> setRunStatus
+	setRunStatus -> error
+	error -> setRunStatus
+	setRunStatus -> End
+}

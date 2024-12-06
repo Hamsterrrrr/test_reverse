@@ -1,0 +1,7 @@
+graph TD
+postMessageWithContentHeight --> delayShowChallengeData
+delayShowChallengeData --> setRunStatus
+setRunStatus --> handleMobile
+handleMobile --> handleWeb
+handleWeb --> setRunStatus
+setRunStatus --> setRunStatus
